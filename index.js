@@ -3,7 +3,7 @@ import { Server } from "socket.io";
 
 const io = new Server({ 
     cors:{
-        origin:"https://midnotify.herokuapp.com/"
+        origin:"http://localhost:3000"
     }
  });
 
